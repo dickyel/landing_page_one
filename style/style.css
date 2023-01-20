@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+  font-family: 'Poppins', serif;
+}
+
+nav {
+  position: fixed;
+  height: 136;
+  align-items: center;
+}
+.nav-item .active{
+  color: #466BF3;
+  font-weight: bold;
+}
+
+.nav-item a{
+  font-size: 14;
+  color: black;
+}
+
+.btn-login {
+  height: 48px;
+  width: 144px;
+  background-color: #ECF0FE;
+  font-size: 16;
+  font-weight: bold;
+  color: #466BF3;
+  border-radius: 12px;
+ 
+}
+
+#hero {
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  background-image: url("../images/jumbotron.png");
+  background-size: cover;
+}
+
+#hero .container {
+  text-align: center;
+  position: relative;
+  padding-top: 110px;
+}
+
+#hero h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #fff;
+}
+
+#hero p {
+  font-size: 20px;
+  font-weight: 200;
+  color: #fff;
+}
+
+#hero .btn-see-product {
+ 
+ 
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 12;
+}
+
+@media(min-width: 1024px)
+{
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media(max-width:768px)
+{
+
+   
+  #hero {
+    height: auto;
+  }
+
+  #hero h1 {
+    font-size: 28px;
+    line-height: 24px;
+  }
+
+  #hero p{
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  #hero .btn-see-product {
+    height: 32px;
+    font-size: 12px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Poppins', serif;
+    font-weight: boldr;
+  }
+}
+
+#trust-us {
+  width: 100%;
+  height: 60vh;
+  background-color: #FAFAFA;
+}
+
+#trust-us .container .trust-us-header{
+  text-align: center;
+  padding-top: 30px;
+}
+
+#trust-us .container .trust-us-header h2{
+  font-size: 24px;
+  font-weight: bold;
+  color: #466BF3;
+}
+
+.card {
+  border: none;
+  background: none;
+  padding-top: 20px;
+}
+
+.card-body {
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+
+.card-body .row {
+  margin-left: 10px;
+}
+
+.card-body  h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-body p {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+@media(max-width:768px)
+{
+   
+  #trust-us {
+    height: auto;
+  }
+
+  .card-body img {
+    height: 85px;
+  }
+
+  .card-body  h1 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .card-body p {
+    font-weight: 300;
+    font-size: 12px;
+  }
+
+}
+
+
+#section-prestasi {
+  width: 100%;
+}
+
+#section-prestasi .container .section-prestasi-header{
+  text-align: center;
+  padding-top: 30px;
+}
+
+#section-prestasi .container .section-prestasi-header h2{
+  font-size: 24px;
+  font-weight: bold;
+  color: #466BF3;
+}
+
+#section-prestasi .container .section-prestasi-header p{
+  font-size: 14px;
+  font-weight: 300;
+
+}
+
+@media(max-width:768px)
+{
+   
+  #section-prestasi {
+    height: auto;
+    display: block;
+  }
+
+  .card-section-prestasi img {
+    height: 120px;
+    margin: 0;
+  }
+
+  .card-section-prestasi .card .card-body {
+    display: block;
+    text-align: center;
+  
+  }
+
+  .card-section-prestasi .card .card-body  h1 {
+    
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .card-body p {
+    font-weight: 300;
+    font-size: 12px;
+  }
+
+}
+
+#section-platform {
+  width: 100%;
+  background-color: #FAFAFA;
+}
+
+#section-platform .container .section-platform-header{
+  text-align: center;
+  padding-top: 30px;
+}
+
+#section-platform .container .section-platform-header h2{
+  font-size: 24px;
+  font-weight: bold;
+  color: #466BF3;
+}
+
+.image-section-platform img {
+  height:40px;
+}
+
+@media(max-width:768px)
+{
+   
+  #section-prestasi {
+    height: auto;
+    display: block;
+  }
+
+  .image-section-platform img {
+    height: 30px;
+    margin-bottom: 20px;
+  }
+
+}
+
+.section-footer {
+  margin-top: 30px;
+  
+}
+
+.list-unstyled li a{
+  text-decoration: none !important;
+  color: #000;
+  font-weight: 300;
+  margin-left: 4px;
+}
+
+.text-uppercase {
+  font-weight: bold;
+}
+
+.copyright a{
+  color: #000;
+  font-weight: 500;
+  text-decoration: none !important;
+}
